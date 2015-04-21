@@ -4,11 +4,24 @@
     
 	<head>
        
-		<title>Мой блог</title>
-       
-		<meta charset="windows-1251">
- 
-		<link href="///home/roman/GitRepository/CSS_Blog.css" rel="stylesheet">   
+		<title>Мой блог</title>       
+		<meta charset="windows-1251"> 
+		<link href="///home/roman/GitRepository/CSS_Blog.css" rel="stylesheet">   		
+		<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+		
+		<script>
+		$(document) .ready(function(){
+			$('footer') .addClass('hide');
+			$('button') .click(function(){
+				$('footer') .slideToggle(400);
+			});
+			
+			$('button') .click(function(){
+				$('li') .jQuery.fx.interval();
+			});
+		});
+		</script>
+
 	</head>
     
 	<body>
@@ -38,6 +51,7 @@
 			моими контактами вдруг работодатель наткнётся, сжалится и возьмёт на работу.</p>
 			<p>Также я буду рад вашим советам и рекомендация по трудоустройству, которые мы можете 
 			оставить в коментариях.</p>
+			<button value="clicked">Комментировать</button><br>
 
 		<footer>
 			<form method="post">
@@ -48,6 +62,7 @@
 			<input class="otpr" type="submit" value="Отправить">
 
 		</footer>
+
 	</body>
 
 </html>
