@@ -8,7 +8,7 @@
        
 		<meta charset="windows-1251">
  
-		<link href="///home/roman/GitRepository/CSS_Blog.css" rel="stylesheet">   
+		<link href="/blog/CSS_Blog.css" rel="stylesheet">   
 	</head>
     
 	<body>
@@ -17,13 +17,13 @@
 			<div class="main-menu">
 			<ul class="main-menu">
             
-				<li><a href="///home/roman/GitRepository/General.html">Главная</a></li>
+				<li><a href="/blog/General.html">Главная</a></li>
             
-				<li><a href="///home/roman/GitRepository/About_me.html">Обо мне</a></li>
+				<li><a href="/blog/About_me.html">Обо мне</a></li>
             
-				<li><a href="///home/roman/GitRepository/Files.html">Файлы</a></li>
+				<li><a href="/blog/Files.html">Файлы</a></li>
             
-				<li><a href="///home/roman/GitRepository/Contact_Inf.html">Контакты</a></li>
+				<li><a href="/blog/Contact_Inf.html">Контакты</a></li>
         
 			</ul>
 
@@ -48,7 +48,7 @@ masters". I did on-line course on HTML and CSS. In my spare time I develop my we
  and a fast learner.</p>
 			<p>I`m looking forward to meet new challenges, and get new experience in QA.</p>
 			
-			<a class="files" href="///home/roman/GitRepository/R_Karbushev_CV.docx">Here my CV - general information about my 
+			<a class="files" href="/blog/R_Karbushev_CV.docx">Here my CV - general information about my 
 skills and experience.</a>
 
 		<footer>

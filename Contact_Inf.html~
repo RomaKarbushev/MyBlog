@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    
+	<head>
+       
+		<title>Мой блог</title>
+       
+		<meta charset="windows-1251">
+ 
+		<link href="/blog/CSS_Blog.css" rel="stylesheet">   
+	</head>
+    
+	<body>
+
+		<header>        
+			<ul class="main-menu">
+            
+				<li><a href="/blog/General.html">Главная</a></li>
+            
+				<li><a href="/blog/About_me.html">Обо мне</a></li>
+            
+				<li><a href="/blog/Files.html">Файлы</a></li>
+            
+				<li><a href="/blog/Contact_Inf.html">Контакты</a></li>
+        
+			</ul>
+    
+		</header>
+		<main>
+			<h1>Контакты</h1>
+			<p>Если у вас есть преложение по работе или просто хотите пригласить на собеседование - 
+			звоните в любое время, пишите на почту или в скайп.</p>
+			<h3>Телефон: +380635888233</h3>
+			<h3>Skype: Karbushev_Roman</h3>	
+			<h3>@mail: KarbushevRoma@gmail.com</h3>
+
+		<footer>
+		
+		</footer>
+	</body>
+
+</html>

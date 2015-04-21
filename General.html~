@@ -8,7 +8,7 @@
        
 		<meta charset="windows-1251">
  
-		<link href="///home/roman/GitRepository/CSS_Blog.css" rel="stylesheet">   
+		<link href="/home/roman/gitrepository/CSS_Blog.css" rel="stylesheet">   
 	</head>
     
 	<body>
@@ -17,13 +17,13 @@
 			<div class="main-menu">
 			<ul class="main-menu">
             
-				<li><a href="///home/roman/GitRepository/General.html">Главная</a></li>
+				<li><a href="/home/roman/GitRepository/General.html">Главная</a></li>
             
 				<li><a href="///home/roman/GitRepository/About_me.html">Обо мне</a></li>
             
-				<li><a href="///home/roman/GitRepository/Files.html">Файлы</a></li>
+				<li><a href="/home/roman/gitrepository/Files.html">Файлы</a></li>
             
-				<li><a href="///home/roman/GitRepository/Contact_Inf.html">Контакты</a></li>
+				<li><a href="/home/roman/gitrepository/Contact_Inf.html">Контакты</a></li>
         
 			</ul>
 
