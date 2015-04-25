@@ -6,7 +6,7 @@
        
 		<title>Мой блог</title>       
 		<meta charset="windows-1251"> 
-		<link href="///home/roman/GitRepository/CSS_Blog.css" rel="stylesheet">   		
+		<link href="CSS_Blog.css" rel="stylesheet">   		
 		<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
 		
 		<script>
@@ -14,10 +14,6 @@
 			$('footer') .addClass('hide');
 			$('button') .click(function(){
 				$('footer') .slideToggle(400);
-			});
-			
-			$('button') .click(function(){
-				$('li') .jQuery.fx.interval();
 			});
 		});
 		</script>
@@ -27,31 +23,33 @@
 	<body>
 
 		<header>        
-			<div class="main-menu">
+			
 			<ul class="main-menu">
             
-				<li><a href="///home/roman/GitRepository/General.html">Главная</a></li>
+				<li><a href="General.html">Главная</a></li>
             
-				<li><a href="///home/roman/GitRepository/About_me.html">Обо мне</a></li>
+				<li><a href="About_me.html">Обо мне</a></li>
             
-				<li><a href="///home/roman/GitRepository/Files.html">Файлы</a></li>
+				<li><a href="Files.html">Файлы</a></li>
             
-				<li><a href="///home/roman/GitRepository/Contact_Inf.html">Контакты</a></li>
+				<li><a href="Contact_Inf.html">Контакты</a></li>
         
 			</ul>
 
-			</div>    
+			    
 		</header>
 		<main>
 			<h1>Главная страница</h1>
-			<p>Здравствуйте все - кто случайно зашёл на мой мини-блог. Мне хотелось бы рассказать как 
-			я пытаюсь устроится на работу а именно на позицию QA Engineer.</p>
-			<p>Немного о сайте - это ещё ранняя версия, просьба не судить строго. Во вкладке обо мне 
-			вы найдёте немного информации обо мне :-) как вы уже успели догадаться. А также вкладка с 
-			моими контактами вдруг работодатель наткнётся, сжалится и возьмёт на работу.</p>
-			<p>Также я буду рад вашим советам и рекомендация по трудоустройству, которые мы можете 
-			оставить в коментариях.</p>
-			<button value="clicked">Комментировать</button><br>
+			
+				<p>Здравствуйте все - кто случайно зашёл на мой мини-блог. Мне хотелось 				бы рассказать как я пытаюсь устроится на работу а именно на позицию QA 					Engineer.</p>
+				<p>Немного о сайте - это ещё ранняя версия, просьба не судить строго. Во 					вкладке	обо мне	вы найдёте немного информации обо мне :-) как вы уже успели догадаться. 				А также вкладка с моими контактами вдруг работодатель наткнётся, сжалится и возьмёт на 					работу.</p>
+			
+			<h1>Комментарии</h1>
+						
+				<p>Также я буду рад вашим советам и рекомендация по 
+				трудоустройству, которые мы можете оставить в коментариях.</p>
+				<button>Комментировать</button><br>
+			
 
 		<footer>
 			<form method="post">
